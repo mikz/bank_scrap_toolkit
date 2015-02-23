@@ -47,7 +47,10 @@ module BankScrapToolkit
     end
 
     def response_body
-      @response.fetch(BODY)
+      body = @response.fetch(BODY)
+      JSON.pretty_generate JSON.parse(body)
+    rescue JSON::ParserError
+      body
     end
 
     def request_line
