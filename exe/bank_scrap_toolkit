@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bank_scrap_toolkit"
+
+
+BankScrapToolkit::CLI.start
