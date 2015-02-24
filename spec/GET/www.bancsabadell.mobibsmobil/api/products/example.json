@@ -1,0 +1,266 @@
+{
+  "accountProduct": {
+    "amount": {
+      "value": "6,66",
+      "currency": "EUR"
+    },
+    "accounts": [
+      {
+        "alias": "",
+        "description": "CUENTA EXPANSIÓN",
+        "availability": "",
+        "owner": "YOUR NAME",
+        "product": "",
+        "productType": "",
+        "entityCode": "",
+        "contractCode": "",
+        "bic": "BSAB ESBB",
+        "number": "0000-0000-00-0001383539",
+        "iban": "ES00000000000000000000",
+        "amount": {
+          "value": "6,66",
+          "currency": "EUR"
+        },
+        "numOwners": 0,
+        "isOwner": false,
+        "isSBPManaged": false,
+        "isIberSecurities": false,
+        "joint": "",
+        "mobileWarning": ""
+      }
+    ]
+  },
+  "cardProduct": {
+    "amount": {
+      "value": "0,00",
+      "currency": "EUR"
+    },
+    "cards": [
+      {
+        "bsprotect": "S",
+        "description": "BSCARD MASTERCARD BS",
+        "isMarsans": "false",
+        "name": "YOUR NAME",
+        "productType": "TD",
+        "reference": "0",
+        "type": "OPERAC.",
+        "shortDescription": "BSCARD MASTERCARD BS",
+        "number": "0000________0000",
+        "realNumber": "0000000000000000",
+        "numcard": "TA 00000",
+        "isOwner": true,
+        "activatedLE": "P",
+        "codret": "",
+        "contractCCC": "00000000000000000000",
+        "operativeCode": "0",
+        "cvv2": "   ",
+        "dni": "",
+        "entity": "",
+        "mail": "",
+        "mailChecked": "",
+        "phoneNumber": "",
+        "phoneNumberChecked": "",
+        "alias": "",
+        "expirationDate": "",
+        "balance": {
+          "value": "",
+          "currency": ""
+        },
+        "availableBalance": {
+          "value": "",
+          "currency": ""
+        },
+        "dms": "",
+        "indAlert": "",
+        "selectableIndex": "",
+        "canActivate": false,
+        "cardType": {
+          "background": "1",
+          "type": "mastercard",
+          "subtype": "debit",
+          "textColor": "#ffffff",
+          "iconColor": "#ffffff",
+          "logo": "mastercard1"
+        },
+        "status": "active",
+        "availableOperations": [
+
+        ],
+        "isInternational": true,
+        "isInternet": true,
+        "isSticker": true,
+        "stickerCard": false,
+        "nfcCard": {
+          "isNfc": true,
+          "isActive": false,
+          "expirationDate": "12-12-99"
+        },
+        "stickerPan": "",
+        "deteriorationLock": false,
+        "isPrepaidAnonymous": false
+      }
+    ]
+  },
+  "investmentProduct": {
+    "amount": {
+      "value": "",
+      "currency": ""
+    },
+    "securities": {
+      "amount": {
+        "value": "",
+        "currency": ""
+      },
+      "accounts": [
+
+      ],
+      "type": ""
+    },
+    "pensionPlan": {
+      "amount": {
+        "value": "",
+        "currency": ""
+      },
+      "accounts": [
+
+      ],
+      "type": ""
+    },
+    "insuredPlanForecast": {
+      "amount": {
+        "value": "",
+        "currency": ""
+      },
+      "policies": [
+
+      ]
+    },
+    "investmentFund": {
+      "amount": {
+        "value": "",
+        "currency": ""
+      },
+      "accounts": [
+
+      ],
+      "type": ""
+    },
+    "depositProduct": {
+      "amount": {
+        "value": "",
+        "currency": ""
+      },
+      "accounts": [
+
+      ]
+    },
+    "unknowns": [
+
+    ]
+  },
+  "financialProduct": {
+    "amount": {
+      "value": "0,00",
+      "currency": "EUR"
+    },
+    "loan": {
+      "amount": {
+        "value": "",
+        "currency": ""
+      },
+      "accounts": [
+
+      ]
+    },
+    "credit": {
+      "amount": {
+        "value": "",
+        "currency": ""
+      },
+      "accounts": [
+
+      ]
+    },
+    "expansionLineGP": {
+      "amount": {
+        "value": "0,00",
+        "currency": "EUR"
+      },
+      "expansionLines": [
+        {
+          "availableBalance": {
+            "value": "0,00",
+            "currency": "EUR"
+          },
+          "claimFee": {
+            "value": "",
+            "currency": ""
+          },
+          "contractCCC": "",
+          "disposeTerms": [
+
+          ],
+          "description": "",
+          "expansionAccount": {
+            "alias": "",
+            "description": "LINEA EXPANSION",
+            "availability": "",
+            "owner": "YOUR NAME",
+            "product": "",
+            "productType": "",
+            "entityCode": "",
+            "contractCode": "",
+            "bic": "BSAB ESBB",
+            "number": "0000-0000-00-0000000000",
+            "iban": "ES0000000000000000000000",
+            "amount": {
+              "value": "0,00",
+              "currency": "EUR"
+            },
+            "numOwners": 0,
+            "isOwner": false,
+            "isSBPManaged": false,
+            "isIberSecurities": false,
+            "joint": "",
+            "mobileWarning": ""
+          },
+          "interest": "",
+          "minDisposeAmount": {
+            "value": "",
+            "currency": ""
+          },
+          "numCard": "0000000000000000",
+          "number": "000000000000",
+          "openingFee": {
+            "value": "",
+            "currency": ""
+          },
+          "owner": "",
+          "reference": "",
+          "creditLimit": {
+            "value": "",
+            "currency": ""
+          },
+          "studyFee": {
+            "value": "",
+            "currency": ""
+          },
+          "tae": "",
+          "active": false
+        }
+      ]
+    },
+    "unknowns": [
+
+    ]
+  },
+  "other": {
+    "amount": {
+      "value": "",
+      "currency": ""
+    },
+    "unknowns": [
+
+    ]
+  }
+}
