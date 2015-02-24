@@ -29,4 +29,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'thor'
   spec.add_dependency 'childprocess'
   spec.add_dependency 'yajl-ruby'
+  spec.add_dependency 'json-schema-generator'
 end

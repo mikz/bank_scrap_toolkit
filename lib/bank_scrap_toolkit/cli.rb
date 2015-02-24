@@ -1,6 +1,7 @@
 require 'thor'
 require 'json'
 require 'pp'
+require 'json-schema-generator'
 
 module BankScrapToolkit
   class CLI < Thor
@@ -30,6 +31,22 @@ module BankScrapToolkit
       flows = BankScrapToolkit::Flow.parse(io)
 
       pp flows
+    end
+
+    desc 'content FILE INDEX', 'extract INDEXth response content from FILE'
+    def content(file, index)
+      io = File.open(file, 'r')
+      flows = BankScrapToolkit::Flow.parse(io)
+
+      puts flows[index.to_i].response_body
+    end
+
+    option :version, type: :string, default: 'draft4'
+    desc 'schema FILE', 'generate schema from FILE'
+    def schema(file)
+      json = JSON::SchemaGenerator.generate file, File.read(file), { schema_version: options[:version] }
+      json = JSON.pretty_generate JSON.parse(json)
+      puts json
     end
 
     private
